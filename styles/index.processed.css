@@ -1,0 +1,218 @@
+body {
+  background: #f5f5f5;
+  margin: 0px;
+  padding: 0px;
+}
+
+header, .nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background: #EEEEEE;
+  justify-content: space-between;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25), 0px 6px 16px 1px rgba(0, 0, 0, 0.08);
+  padding: 11px 70px;
+}
+
+.logo-head {
+  font-family: Calisto MT;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 43px;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-phone {
+  font-family: Calisto MT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+}
+
+.nav > .nav-sec {
+  font-family: Calisto MT;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  padding: 12px 21px;
+  margin: 0px 8.5px;
+  transition: .3s;
+}
+
+.nav-sec > .nav-link {
+  text-decoration: none;
+  color: #000;
+  transition: .3s;
+}
+
+.nav-sec > .nav-link:last-child {
+  margin-rigth: 40px;
+}
+
+.nav-sec:hover {
+  background: #3E3939;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-sec:hover > .nav-link {
+  color: #eee;
+}
+
+.btn {
+  font-family: Calisto MT;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  padding: 15px 30px;
+  margin: auto 8.5px;
+  width: 155px;
+  height: 48px;
+  border-radius: 15px;
+  border: none;
+}
+
+.tn-card--btn {
+  width: 207px;
+  height: 39px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  border: none;
+  margin-top: 15px;
+}
+
+.btn-bround {
+  border-radius: 25px;
+}
+
+.btn-wh {
+  background: #F9F8F8;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 3px 6px rgba(221, 219, 219, 0.46);
+  transition: .3s;
+}
+
+.btn-gr {
+  color: #FFFFFF;
+  background: #3E3939;
+  transition: .3s;
+}
+
+.btn-gr:hover {
+  background: #C4C4C4;
+  color: #3E3939;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25), 0px 7px 7px rgba(0, 0, 0, 0.25), inset 0px 3px 6px rgba(221, 219, 219, 0.46);
+}
+
+.btn-wh:hover {
+  background: #C4C4C4;
+  color: #3E3939;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25), 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
+
+.align-vt-cnt {
+  margin: auto 0px;
+}
+
+.tn-section {
+  width: 1520px;
+  height: 543px;
+  background: #F3F3F3;
+  padding: 30px 50px;
+  margin: 20px;
+}
+
+.tn-card {
+  width: 300px;
+  height: auto;
+  background: #FFF;
+  filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.36));
+  border-radius: 25px;
+}
+
+.tn-card--head {
+  text-align: center;
+}
+
+.tn-card--title {
+  margin: 0px auto;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
+  padding: 20px 0;
+}
+
+.tn-card--body {
+  width: 242px;
+  height: auto;
+  background: rgba(220, 220, 220, 0.3);
+  border-radius: 25px;
+  margin: 0px auto;
+  padding: 15px 17px;
+  text-align: center;
+  align-items: center;
+}
+
+.tn-card--des {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.tn-card--price {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 41px;
+  align-items: center;
+  text-align: center;
+}
+
+.price-val {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.tn-card--footer {
+  margin: auto;
+  padding: 0px 0px 25px 0px;
+  text-align: center;
+}
+
+footer {
+  width: auto;
+  height: 360px;
+  background: #3E3939;
+}
+
+.tn-row {
+  display: flex;
+  justify-content: space-between;
+}
