@@ -4,18 +4,6 @@ body {
   padding: 0px;
 }
 
-header, .nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-header {
-  background: #EEEEEE;
-  justify-content: space-between;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25), 0px 6px 16px 1px rgba(0, 0, 0, 0.08);
-  padding: 11px 70px;
-}
-
 .logo-head {
   font-family: Calisto MT;
   font-style: normal;
@@ -58,7 +46,7 @@ header {
 }
 
 .nav-sec > .nav-link:last-child {
-  margin-rigth: 40px;
+  margin-right: 40px;
 }
 
 .nav-sec:hover {
@@ -71,21 +59,7 @@ header {
   color: #eee;
 }
 
-.btn {
-  font-family: Calisto MT;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 16px;
-  align-items: center;
-  text-align: center;
-  padding: 15px 30px;
-  margin: auto 8.5px;
-  width: 155px;
-  height: 48px;
-  border-radius: 15px;
-  border: none;
-}
+
 
 .tn-card--btn {
   width: 207px;
@@ -140,7 +114,9 @@ header {
   padding: 30px 50px;
   margin: 20px;
 }
-
+.card{
+  width: 300px;
+}
 .tn-card {
   width: 300px;
   height: auto;
@@ -210,9 +186,4 @@ footer {
   width: auto;
   height: 360px;
   background: #3E3939;
-}
-
-.tn-row {
-  display: flex;
-  justify-content: space-between;
 }

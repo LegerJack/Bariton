@@ -4,18 +4,9 @@ body {
   padding: 0px;
 }
 
-header,.nav{
-  display: flex;
-  justify-content: space-between
-}
 
-header{
-  background: #EEEEEE;
-  justify-content: space-between;
-  box-shadow:0px 4px 8px rgba(0, 0, 0, 0.25),
-        0px 6px 16px 1px rgba(0, 0, 0, 0.08);
-  padding:11px 70px;
-}
+
+
 .logo-head{
   font-family: Calisto MT;
   font-style: normal;
@@ -56,7 +47,7 @@ header{
   transition: .3s;
 }
 .nav-sec > .nav-link:last-child{
-  margin-rigth: 40px;
+  margin-right: 40px;
 }
 .nav-sec:hover{
   background: #3E3939; 
@@ -187,6 +178,7 @@ header{
   align-items: center;
   text-align: center;
 }
+
 .price-val{
   font-family: Ubuntu;
   font-style: normal;
@@ -194,23 +186,9 @@ header{
   font-size: 18px;
   line-height: 21px;
 }
-.tn-card--footer{
-  margin: auto;
-  padding: 0px 0px 25px 0px;
-  text-align: center;
-}
+
 footer{
   width: auto;
   height: 360px;
   background: #3E3939;
-}
-.tn-row{
-  display: flex;
-  justify-content: space-between;
-}
-.tn-col{
-  
-}
-.tn-col-min{
-  
 }

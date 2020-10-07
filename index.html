@@ -1,86 +1,154 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  
+
   <!--  Meta  -->
   <meta charset="UTF-8" />
   <title>ТОН</title>
 
   <!--  Styles  -->
-<!-- <link rel="stylesheet" href="styles/index.processed.css"> -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="bootstrap4.5.2/CSS/bootstrap-grid.css">
-<link rel="stylesheet" href="bootstrap4.5.2/CSS/bootstrap-reboot.css">
-<link rel="stylesheet" href="bootstrap4.5.2/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <link rel="stylesheet" href="bootstrap4.5.2/CSS/bootstrap-grid.css">
+  <link rel="stylesheet" href="bootstrap4.5.2/CSS/bootstrap-reboot.css">
+  <link rel="stylesheet" href="bootstrap4.5.2/CSS/bootstrap.min.css">
 </head>
+
 <body>
- <header>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <a href="#" class="navbar-brand">
-      <div class="logo logo-head"><u>Тон</u></div>
-     </a>
-     <div class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav nav-item">
-          <a href="#" class="nav-link">Тарифы</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Каталог</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Акции</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Поддержка</a>
-        </li>
-        <li class="nav-item">
-          <button class="btn btn-wh">Войти</button>
-          <button class="btn btn-gr">Регистрация</button> 
-        </li>
-       </ul>
-    </div>
-  </nav>
-   
- </header>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <a href="#" class="navbar-brand">Тон</a>
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link">Тарифы</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link">Каталог</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link">Акции</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link">Поддержка</a>
+            </li>
+          </ul>
+          <form action="" class="form-inline">
+            <button class="btn btn-light mx-2">Войти</button>
+            <button class="btn btn-dark mx-2">Регистрация</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
   <main>
-    <section class="tn-section">
-      <div class="tn-card">
-        <div class="tn-card--head">
-          <h1 class="tn-card--title">Тариф №1</h1>
+    <section class="container">
+
+    </section>
+    <!-- Секция с тарифами  -->
+    <section class="bg-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="card m-4">
+            <div class="card-body">
+              <h1 class="card-title text-center">Тариф №1</h1>
+              <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur architecto
+                minus maiores culpa perspiciatis eaque voluptatum aliquam necessitatibus laudantium velit? Dolor maxime
+                impedit quidem adipisci minus est, quos tempore sint.
+              </div>
+              <div class="card-footer">
+                <div>219<sub>руб/мес</sub></div>
+                <button class="btn btn-dark">Подключиться</button>
+              </div>
+            </div>
+          </div>
+          <div class="card m-4">
+            <div class="card-body">
+              <h1 class="card-title text-center">Тариф №1</h1>
+              <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur architecto
+                minus maiores culpa perspiciatis eaque voluptatum aliquam necessitatibus laudantium velit? Dolor maxime
+                impedit quidem adipisci minus est, quos tempore sint.
+              </div>
+              <div class="card-footer">
+                <div>219<sub>руб/мес</sub></div>
+                <button class="btn btn-dark">Подключиться</button>
+              </div>
+            </div>
+          </div>
+          <div class="card m-4">
+            <div class="card-body">
+              <h1 class="card-title text-center">Тариф №1</h1>
+              <div class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur architecto
+                minus maiores culpa perspiciatis eaque voluptatum aliquam necessitatibus laudantium velit? Dolor maxime
+                impedit quidem adipisci minus est, quos tempore sint.
+              </div>
+              <div class="card-footer">
+                <div>219<sub>руб/мес</sub></div>
+                <button class="btn btn-dark">Подключиться</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tn-card--body">
-          <div class="tn-card--des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur architecto minus maiores culpa perspiciatis eaque voluptatum aliquam necessitatibus laudantium velit? Dolor maxime impedit quidem adipisci minus est, quos tempore sint. 
-           </div>
-        </div>
-        <div class="tn-card--footer">
-          <div class="tn-card--price">219<sub class="price-val">руб/мес</sub></div>
-          <button class="tn-card--btn btn-gr btn-bround">Подключиться</button> 
+      </div>
+    </section>
+
+    <section class="container">
+
+    </section>
+
+    <!-- Секция с товарами -->
+
+    <section class="bg-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="card m-4">
+            <img src="" alt="" class="card-img">
+            <div class="card-body">
+              <div class="card-title"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
-  <footer>  
-   <div class="row">
-     <div class="col-12 col-sm-2 col-md-2 col-lg-2">
-       <h3>Компния</h3>
-     </div>
-     <div class="col-12 col-sm-2 col-md-2 col-lg-2">
-      <h3>Компния</h3>
-     </div>
-     <div class="col-12 col-sm-2 col-md-2 col-lg-2">
-      <h3>Компния</h3>
-     </div>
-     <div class="col-12 col-sm-4 col-md-4 col-lg-4"></div>
-   </div>
+
+  
+  <footer>
+    <div class="row">
+      <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+        <h5 class="text-white">Компния</h5>
+      </div>
+      <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+        <h5 class="text-white">Компния</h5>
+      </div>
+      <div class="col-12 col-sm-2 col-md-2 col-lg-2">
+        <h5 class="text-white">Компния</h5>
+      </div>
+      <div class="col-12 col-sm-4 col-md-4 col-lg-4"></div>
+    </div>
   </footer>
- 
-  
+
+
   <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="bootstrap4.5.2/JS/bootstrap.min.js"></script>
-  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap4.5.2/JS/bootstrap.min.js"></script>
+
   <script src="scripts/index.js"></script>
-  
+
 </body>
+
 </html>
