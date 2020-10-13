@@ -114,9 +114,7 @@ body {
   padding: 30px 50px;
   margin: 20px;
 }
-.card{
-  width: 300px;
-}
+
 .tn-card {
   width: 300px;
   height: auto;
@@ -184,6 +182,11 @@ body {
 
 footer {
   width: auto;
-  height: 360px;
   background: #3E3939;
+}
+.mirror{
+  transform: scale(-1,1);
+}
+.t-2{
+  top:20%;
 }
