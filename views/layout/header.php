@@ -24,24 +24,24 @@
       </button>
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarToggler">
-          <a href="index.html" class="navbar-brand">Тон</a>
+          <a href="/" class="navbar-brand">Тон</a>
           <ul class="navbar-nav">
             <li class="nav-item mx-2">
-              <a href="product.html" class="nav-link">Тарифы</a>
+              <a href="/catalog/tarifs/" class="nav-link">Тарифы</a>
             </li>
             <li class="nav-item mx-2">
-              <a href="catalog.html" class="nav-link">Каталог</a>
+              <a href="/catalog/devices/" class="nav-link">Каталог</a>
             </li>
             <li class="nav-item mx-2">
-              <a href="#" class="nav-link">Акции</a>
+              <a href="/shares/" class="nav-link">Акции</a>
             </li>
             <li class="nav-item mx-2">
-              <a href="#" class="nav-link">Поддержка</a>
+              <a href="/support/" class="nav-link">Поддержка</a>
             </li>
           </ul>
           <div>
-            <a href="#" class="btn btn-light mx-2">Войти</a>
-            <a href="#" class="btn btn-dark mx-2">Регистрация</a>
+            <a href="/signin/" class="btn btn-light mx-2">Войти</a>
+            <a href="/signup/" class="btn btn-dark mx-2">Регистрация</a>
           </div>
         </div>
       </div>

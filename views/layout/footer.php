@@ -88,11 +88,13 @@
             </svg>
           </div>
 
-          <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-light text-center">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4"></div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 text-light text-right">
             <div class="lead">
-              Сделал сайт
-              <hr class="border-white my-1">
-              <p class="text-uppercase">Кленов Владислав </p>
+              Разработал сайт
+              <!-- <hr class="border-white my-1"> -->
+              <p class="h5">Кленов Владислав</p>
             </div>
           </div>
           <div class="col-12 col-sm-4 col-md-4 col-lg-4">

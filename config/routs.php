@@ -1,5 +1,7 @@
 <?php 
 return array(
-    '' => 'site/index'
+    '' => 'site/index',
+    'catalog/devices' => 'catalog/devices',
+    'catalog/tarifs' => 'catalog/tarifs',
 );
 ?>

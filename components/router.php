@@ -22,7 +22,6 @@ class Router{
         $uri = $this->getURI();
         //Проверяем наличие такого запроса в routs.php
         foreach ($this->routes as $pattern => $path){
-            echo $path;
             //Сравниваем $pattern и $uri
             if(preg_match("~$pattern~", $uri)){
                 // Получаем внутренний путь из внешнего
