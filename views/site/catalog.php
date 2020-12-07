@@ -1,4 +1,4 @@
-<? include_once ROOT.'/views/layout/header.php';?>
+<? include ROOT.'/views/layout/header.php';?>
 <section class="bg-secondary">
     <div class="container">
         <div class="row">
@@ -35,7 +35,8 @@
                 <div class="shadow rounded card my-4">
                     <div class="card-body">
                         <a href="#" class="card-title text-center h3 text-dark">
-                            <? echo $tarifs['name']?></a>
+                            <? echo $tarifs['name']?>
+                        </a>
                         <div class="my-3">
                             <div class="d-flex justify-content-between">Звонки <span>
                                     <? echo $tarifs['minuts'] ?> Мин</span></div>

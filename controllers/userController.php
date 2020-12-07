@@ -1,5 +1,6 @@
 <?
 include ROOT.'/models/User.php';
+// include ROOT.'/models/Product.php';
 class userController
 {
 
@@ -40,6 +41,8 @@ class userController
     {
         header('Location: ');
         unset($_SESSION['user']);
+
+        return true;
     }
 
     public function actionAccount()

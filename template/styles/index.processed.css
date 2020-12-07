@@ -59,7 +59,9 @@ body {
   color: #eee;
 }
 
-
+.lh-100{
+  line-height: 1;
+}
 
 .tn-card--btn {
   width: 207px;
