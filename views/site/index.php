@@ -54,7 +54,9 @@
                     <h3 class="text-dark font-weight-bold "><? echo $tarifs['price']?><object data="/template/img/SVG/ruble.svg"
                         type="image/svg+xml"></object></h3>
                   </div>
-                  <button class="btn btn-dark btn-block">Купить</button>
+                  <button class="btn btn-dark btn-block">
+                      Купить <object data="/template/img/SVG/cart.svg" type="image/svg+xml"></object>
+                  </button>
                 </div>
               </div>
             </div>
@@ -63,7 +65,7 @@
         </div>
 
         <div class="text-center mt-2 pb-2">
-          <a href="/tarifs/" class="text-light">Все тарифы</a>
+          <a href="catalog/tarifs/" class="text-light">Все тарифы</a>
         </div>
 
       </div>
@@ -129,7 +131,7 @@
         </div>
 
         <div class="text-center mt-2 pb-2">
-          <a href="/catalog/" class="text-light">Все товары</a>
+          <a href="/catalog/devices" class="text-light">Все товары</a>
         </div>
 
       </div>

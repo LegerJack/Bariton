@@ -1,4 +1,4 @@
-<? require_once(ROOT.'/views/layout/header.php');?>
+<? include_once ROOT.'/views/layout/header.php';?>
 <section class="bg-secondary">
     <div class="container">
         <div class="row">
@@ -76,4 +76,4 @@
         </div>
     </div>
 </section>
-<? require_once(ROOT.'/views/layout/footer.php')?>
+<? include_once ROOT.'/views/layout/footer.php'?>

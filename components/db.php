@@ -1,4 +1,4 @@
-<?php
+<?
 class Db{
     public static function getDbConnection(){
         $parametrs = ROOT.'/config/db_parametrs.php';
@@ -16,6 +16,4 @@ class Db{
         return $db;
     }
 }
-
-
 ?>
