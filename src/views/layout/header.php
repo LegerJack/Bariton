@@ -10,10 +10,10 @@
     <title>ТОН</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--  Styles  -->
-    <link rel="stylesheet" href="/template/styles/index.processed.css">
-    <link rel="stylesheet" href="/template/bootstrap4.5.2/CSS/bootstrap-grid.css">
-    <link rel="stylesheet" href="/template/bootstrap4.5.2/CSS/bootstrap-reboot.css">
-    <link rel="stylesheet" href="/template/bootstrap4.5.2/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./../../template/styles/index.processed.css">
+    <link rel="stylesheet" href="./../../template/bootstrap4.5.2/CSS/bootstrap-grid.css">
+    <link rel="stylesheet" href="./../../template/bootstrap4.5.2/CSS/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./../../template/bootstrap4.5.2/CSS/bootstrap.min.css">
 </head>
 
 <body>
