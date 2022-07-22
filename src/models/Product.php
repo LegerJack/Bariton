@@ -1,5 +1,7 @@
 <?php
 
+use Src\Components\DataBase;
+
 class Product
 {
     const SHOW_BY_DEFAULT = 12;
@@ -10,13 +12,17 @@ class Product
     {
         $count = intval($count);
 
-        $db = Db::getDbConnection();
+        $db = DataBase::getDbConnection();
         $products = array();
 
         $result = $db->query('SELECT `id товара`,`Название`,`Вид товара`,`Цена`,`Фотография` FROM `товар` ORDER BY `id товара` DESC LIMIT ' . $count);
 
 
         $i = 0;
+        if (!$result) {
+            return [];
+        }
+        
         while ($row = $result->fetch()) {
             $products[$i]['id'] = $row['id товара'];
             $products[$i]['name'] = $row['Название'];
@@ -37,13 +43,17 @@ class Product
     {
         $count = intval($count);
 
-        $db = Db::getDbConnection();
+        $db = DataBase::getDbConnection();
         $products = array();
 
         $result = $db->query('SELECT `id тарифа`,`Название`,`Минуты`,`СМС`,`Интернет`,`Цена_за_месяц` FROM `связные тарифы` ORDER BY `id тарифа` LIMIT ' . $count);
 
 
         $i = 0;
+        if (!$result) {
+            return [];
+        }
+
         while ($row = $result->fetch()) {
             $products[$i]['id'] = $row['id тарифа'];
             $products[$i]['name'] = $row['Название'];
@@ -63,12 +73,16 @@ class Product
      */
     public static function getAllDevices()
     {
-        $db = Db::getDbConnection();
+        $db = DataBase::getDbConnection();
         $products = array();
 
         $result = $db->query('SELECT `id товара`,`Название`,`Вид товара`,`Цена`,`Фотография` FROM `товар` ORDER BY `id товара`');
 
         $i = 0;
+        if (!$result) {
+            return [];
+        }
+
         while($row = $result->fetch()){
             $products[$i]['id'] = $row['id товара'];
             $products[$i]['name'] = $row['Название'];
@@ -86,13 +100,17 @@ class Product
      */
     public static function getAllTarifs()
     {
-        $db = Db::getDbConnection();
+        $db = DataBase::getDbConnection();
         $products = array();
 
         $result = $db->query('SELECT `id тарифа`,`Название`,`Минуты`,`СМС`,`Интернет`,`Цена_за_месяц` FROM `связные тарифы` ORDER BY `id тарифа`');
 
 
         $i = 0;
+        if (!$result) {
+            return [];
+        }
+
         while ($row = $result->fetch()) {
             $products[$i]['id'] = $row['id тарифа'];
             $products[$i]['name'] = $row['Название'];

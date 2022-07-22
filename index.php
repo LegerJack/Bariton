@@ -10,9 +10,9 @@ error_reporting(E_ALL);
 
 session_start();
 //2. Подключение файлов системы
-define('ROOT', dirname(__FILE__));
+define('ROOT', dirname(__FILE__) . '/src');
 require(ROOT.'/components/router.php');
-require_once(ROOT.'/components/db.php');
+require_once(ROOT . '/components/DataBase.php');
 //3.Установка соединений с БД
 
 //4.ВЫзов router
