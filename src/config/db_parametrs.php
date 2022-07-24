@@ -1,5 +1,5 @@
 <?php
-use Src\Components\DataBaseParameters;
+use Src\Components\Router\DataBaseParameters;
 
 $parameters = DataBaseParameters::getInstance();
 

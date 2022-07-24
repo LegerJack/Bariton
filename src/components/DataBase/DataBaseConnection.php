@@ -1,15 +1,15 @@
 <?php
-namespace Src\Components;
+namespace Src\Components\Router;
 
 use PDO;
 use PDOException;
-use Src\Components\DataBaseParameters;
+use Src\Components\Router\DataBaseParameters;
 
 class DataBaseConnection {
 
     const PARAMETERS_PATH = ROOT.'/config/db_parametrs.php';
 
-    /**@var \Src\Components\DataBaseParameters */
+    /**@var \Src\Components\Router\DataBaseParameters */
     private $parameters;
 
     /**

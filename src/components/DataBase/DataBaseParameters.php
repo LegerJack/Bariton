@@ -1,5 +1,5 @@
 <?php
-namespace Src\Components;
+namespace Src\Components\Router;
 
 use Src\Patterns\Singltone;
 
