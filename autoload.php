@@ -1,6 +1,8 @@
 <?php 
 spl_autoload_register(function($class){
-    $path = __DIR__.'\\src\\'.str_replace('\\', DIRECTORY_SEPARATOR, $class.'.php');
+    $class = str_replace('Src', 'src', $class);
+
+    $path = __DIR__.'/'.str_replace('\\', DIRECTORY_SEPARATOR, $class.'.php');
     if(is_readable($path)){
         require $path;
     }

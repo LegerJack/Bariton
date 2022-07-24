@@ -12,7 +12,8 @@ session_start();
 //2. Подключение файлов системы
 define('ROOT', dirname(__FILE__) . '/src');
 require(ROOT.'/components/router.php');
-require_once(ROOT . '/components/DataBase.php');
+require_once(ROOT . '/components/DataBaseConnection.php');
+require_once 'autoload.php';
 //3.Установка соединений с БД
 
 //4.ВЫзов router
